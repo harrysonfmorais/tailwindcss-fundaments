@@ -13,6 +13,7 @@ export type RootProps = ComponentProps<'div'>
 type FileInputContextProps = {
   id: string
   files: File[]
+
   onFilesSelected: (files: File[], multiple: boolean) => void
 }
 
